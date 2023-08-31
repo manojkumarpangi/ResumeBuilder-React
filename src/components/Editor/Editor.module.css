@@ -1,0 +1,29 @@
+.container{
+    min-width: 550px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+.header{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.header .section{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size:  1.1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header .active{
+    border-bottom: 2px solid #ff4d2e;
+    color: #ff4d2e;
+}

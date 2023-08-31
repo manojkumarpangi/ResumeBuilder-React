@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.toolbar{
+    width: 100%;
+    display: flex;
+    gap:  20px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.colors{
+    display: flex;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.colors .color{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    
+}
+
+.button{
+    padding: 5px 20px;
+    border-radius: 50px;
+    background-color: #ff622e;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem ;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    width:20px;
+    padding-top: 5px;
+}
