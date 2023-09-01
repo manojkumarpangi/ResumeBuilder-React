@@ -27,3 +27,10 @@
     border-bottom: 2px solid #ff4d2e;
     color: #ff4d2e;
 }
+
+.body{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
